@@ -1,7 +1,7 @@
 # Number of nodes inside the Storidge cluster
 STORIDGE_CLUSTER_NODES = ENV['VAGRANT_STORIDGE_CLUSTER_NODES'].nil? ? 3 : ENV['VAGRANT_STORIDGE_CLUSTER_NODES'].to_i
 # Memory associated to each Storidge (MB)
-STORIDGE_NODE_MEM = ENV['VAGRANT_STORIDGE_NODE_MEM'].nil? ? '512': ENV['VAGRANT_STORIDGE_NODE_MEM']
+STORIDGE_NODE_MEM = ENV['VAGRANT_STORIDGE_NODE_MEM'].nil? ? '2048': ENV['VAGRANT_STORIDGE_NODE_MEM']
 # Number of data disks per Storidge node
 STORIDGE_DISK_COUNT = ENV['VAGRANT_STORIDGE_DISK_COUNT'].nil? ? 3 : ENV['VAGRANT_STORIDGE_DISK_COUNT'].to_i
 # Storidge data disks size in GB
